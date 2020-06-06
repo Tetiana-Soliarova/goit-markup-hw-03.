@@ -1,0 +1,91 @@
+:root {
+    --primery-text-color: #212121;
+    --title-text-color:  #757575;
+    --accent-color: #2196F3;
+    --footer-text-color: rgba(255, 255, 255, 0.4);
+   --primery-white-color: #FFFFFF;
+}
+
+body{
+   color: var(--primery-text-color);
+   background-color: #FFFFFF;
+   font-family: Roboto sans-serif;
+   
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+ /*Стилізація логотипа*/
+
+.logo-text {
+    color: #000000;
+    font-family: Raleway, sans-serif;
+
+}
+.logo {
+    color: var(--accent-color);
+
+}
+
+/*Стилизацыя навигации на другие страницы*/
+.site-nav a  {
+    color: var(--primery-text-color);
+    font-family:Roboto sans-serif;
+
+}
+
+.site-nav :hover,
+.site-nav :focus {
+    color: var(--accent-color);
+}
+/*Стилизацыя  контактной инфрмации*/
+.address-title a {
+    color:  #757575;
+}
+.address-title :hover,
+.address-title :focus {
+    color: var(--accent-color);
+}
+
+/*<!--Баннер-->*/
+
+.button {
+    background-color: var(--accent-color);
+    color: var(--primery-white-color);
+    font-weight: bold
+}
+.page-title{
+    font-style: normal;
+    font-weight: 900
+}
+.page :hover,
+.page :focus {
+    color: var(--accent-color);
+}
+
+
+/*Задачи компании*/
+
+.tasks {
+    color: rgba(0,0,0,0);
+    Font Size: 14px;
+}
+
+.link {
+    color:  #757575;
+}
+
+
+.name-tasks {
+
+
+
+ 
+}
